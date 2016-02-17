@@ -3,7 +3,7 @@
 # (where n is the number of lines in the file).
 
 
-fo = open("temp.txt", "rw+")
+fo = open("temp.py", "rw+")
 i = 0
 fo.writelines("#:0")
 while(fo.readline()):
